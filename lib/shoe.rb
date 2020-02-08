@@ -14,8 +14,6 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def unique_brands
-    self.each.sort {|self|}
-  end
-
 end
+
+shoe.brand = new
